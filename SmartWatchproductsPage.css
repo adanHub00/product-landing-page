@@ -80,7 +80,7 @@ p {
 }
 .top-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-decoration: none;
     align-items: center;
     background-color: #D3D3D3;
