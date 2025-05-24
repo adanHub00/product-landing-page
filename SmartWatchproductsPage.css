@@ -73,7 +73,7 @@ p {
     padding: 18px 24px;
     text-align: center;
     text-decoration: none;
-    color: #554a30ee;
+    color: #333333;
     font-size: 1.5rem;
     font-weight: 500;
     font-family: 'Aguere Sans-serif', sans-serif;
@@ -81,8 +81,9 @@ p {
 .top-nav {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
     align-items: center;
-    background-color: #040b46;
+    background-color: #D3D3D3;
     overflow-x: hidden;
     min-height: 50vh;
     width: 200px;
