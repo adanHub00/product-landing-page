@@ -67,15 +67,32 @@ p {
     z-index: 1000;
 }
 /* Navigation Links */
-#nav-bar a {
+#nav-bar a .sidebar {
+    float: left;
+    width: 100%;
+    padding: 18px 24px;
+    text-align: center;
     text-decoration: none;
     color: #554a30ee;
     font-size: 1.5rem;
     font-weight: 500;
+    font-family: 'Aguere Sans-serif', sans-serif;
 }
-#nav-bar .topnav {
-    float: right;
-    margin-right: 1rem;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040b46;
+    overflow-x: hidden;
+    min-height: 50vh;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding-top: 45px;
+    
 }
 /*Hero Section */
 #hero {
