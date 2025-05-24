@@ -67,14 +67,10 @@ p {
     z-index: 1000;
 }
 /* Navigation Links */
-#nav-bar a .top-nav {
-    width: 100%;
-    padding: 18px 24px;
-    text-align: center;
+.top-nav a {
     text-decoration: none;
-    color: #333333;
-    font-size: 1.5rem;
-    font-weight: 500;
+    color: #D4AF37;
+    font-size: 1.3rem;
     font-family: 'Aguere Sans-serif', sans-serif;
 }
 .top-nav {
@@ -82,18 +78,17 @@ p {
     flex-direction: row;
     text-decoration: none;
     align-items: center;
-    background-color: #D3D3D3;
-    overflow-x: hidden;
-    min-height: 50vh;
-    width: 120px;
-    height: 100vh;
+    background: transparent;
     position: fixed;
-    z-index: 10;
+    z-index: 1100;
     top: 0;
-    left: 0;
-    padding-top: 45px;
+    right: 0;
+    gap: 1.8rem;
+    padding: 1.5rem 2.5rem;
     
 }
+.top-nav a:hover {
+    color: #ffffff;
 /*Hero Section */
 #hero {
     text-align: center;
