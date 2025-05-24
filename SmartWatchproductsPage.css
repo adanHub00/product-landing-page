@@ -1,0 +1,357 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+h1, h2, h3 {
+    font-family: 'Aguero Serif', sans-serif;
+    color: #051431;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #0b0202e2;
+}
+/* Page Wrapper */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 17vh;
+    color: #D4AF37;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header Styling */
+#header {
+    position: relative;
+    background: linear-gradient(180deg, #010a1b, #051431);
+    padding: 2rem;
+    color: #D4AF37;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1);
+}
+/* Header Image */
+#header-img {
+    width: 15vw;
+    height: auto;
+    display: block;
+    margin: 0;
+    margin-left: 1rem;
+    border-radius: 80%;
+    border: 1px solid #040b46;
+    background: radial-gradient(circle, #D4AF37 0%, #041536 100%);
+    padding: 0.3rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+/* Header Text */
+#header-text span {
+    
+    font-size: 2.3vw;
+    font-weight: 400;
+    color: #D4AF37;
+    margin-top: 1rem;
+    text-align: right;
+    letter-spacing: 5px;
+}
+/* Navigation Bar */
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 20rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    z-index: 1000;
+}
+/* Navigation Links */
+#nav-bar a {
+    text-decoration: none;
+    color: #554a30ee;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#nav-bar .topnav {
+    float: right;
+    margin-right: 1rem;
+}
+/*Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+
+}
+#hero h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#form {
+    margin-top: 0.5rem;
+}
+/* Email Input Field */
+#email {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 2px solid #041536;
+    border-radius: 8px;
+    width: 300px;
+    max-width: 100%;
+    background-color: #ffffff;
+    color: #333333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+/* Placeholder Text */
+#email::placeholder {
+    color: #3b3131;
+    font-style: italic;
+}
+/* Submit Button Styling */
+#submit {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 2px solid #041536;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #040b46;
+    color: #D4AF37;
+}
+/* Features Section */
+#features {
+    padding: 2rem 1rem;
+    background-color: #f6f6f6;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+/* Feature Grid */
+.grid {
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #040b46;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+/* Font Awesome Icon Styling */
+.grid .icon {
+    font-size: 2rem;
+    color: #ff4500;
+    display: inline-block;
+    flex-shrink: 0;
+}
+/* Feature Text Styling */
+.grid .desc h3 {
+    font-size: 1.2rem;
+    color: #051431;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.grid .desc p {
+    font-size: 1rem;
+    color: #02092b;
+    line-height: 1.4;
+}
+/* Discover Section Styling */
+#discover {
+    padding: 2rem 1rem;
+    background-color: #f3f3f6ed;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+#discover p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+/* Watch Card Styling (Series and Collections) */
+#discover .series, #discover .collection {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+    border: 2px solid #040b46;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+/* Hover Effect for Watch Cards */
+#discover .series:hover, #discover .collection:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+/* Watch Image Styling */
+#discover .series-image img, #discover .collection-image img {
+    width: 300px;
+     max-width: 100%;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 8px;
+     margin-bottom: 1rem;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Hover Effect for Watch Images */
+#discover .series-image img:hover, #discover .collection-image img:hover {
+    transform: scale(1.05);
+    
+}
+/* Watch Title Styling */
+#discover .level h3 {
+    font-size: 1.5rem;
+    color: #051431;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: 'Ageuro Serif', sans-serif;
+}
+/* Watch Price Styling */
+#discover h3:nth-of-type(2) {
+    font-size: 1.2rem;
+    color: #02092c;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+#discover h2:nth-of-type(2) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #02092c;
+}
+/* General Button Styling */
+#discover .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #040b46;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0.5rem;
+}
+/* Buy Now Button Styling */
+#discover .btn.buy-now {
+    background-color: #040b46;
+    color: #D4AF37;
+}
+#discover .btn.buy-now:hover {
+    background-color: #040b46;
+    transform: scale(1.05);
+}
+#discover .btn.buy-now:active {
+    transform: scale(0.95);
+    background-color: #113680;
+}
+/* Add to Cart Button Styling */
+#discover .btn.add-to-cart {
+    background-color: #040b46;
+    color: #D4AF37;
+}
+#discover .btn.add-to-cart:hover {
+    background-color: #040b46;
+    transform: scale(1.05);
+}
+#discover .btn.add-to-cart:active {
+    transform: scale(0.95);
+    background-color: #113680;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    #discover .series, #discover .collection {
+        width: 90%;
+    }
+    #discover .btn {
+        width: 100%;
+    }
+}
+/* Video Section Styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #030722;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+.video-container video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    
+}
+.video-container video:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+/* About Us Section Styling */
+#about-us {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+}
+#footer-social {
+    background-color:#e7e8ec;
+    color: #040b46;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* Footer Links */
+#footer-social a {
+    color: #040b46;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bolder;
+    transition: #0000ff 0.3s ease;
+    
+}
+#footer-social a:hover {
+    color: #0000ff;
+}
+/* Footer Social Icons */
+#footer-social {
+    margin-top: 1rem;
+}
+#footer-social i {
+    font-size: 1.5rem;
+    color: #040b46;
+    margin: 0 0.5rem;
+    transition:  color 0.3s ease;
+}
+#footer-social i:hover {
+    color: #0000ff;
+    transform: scale(1.2);
+}
+/* Footer Copyright */
+#footer-social p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #021832;
+}
+/* Responsive Footer */
+@media (max-width: 768px) {
+    #footer-social {
+        text-align: center;
+   }
+   #footer-social a {
+        display: inline;
+        margin: 0.5rem 0;
+  }
+  #footer-social i {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
