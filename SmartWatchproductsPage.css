@@ -67,7 +67,7 @@ p {
     z-index: 1000;
 }
 /* Navigation Links */
-#nav-bar a .sidebar {
+#nav-bar a .top-nav {
     float: left;
     width: 100%;
     padding: 18px 24px;
@@ -78,7 +78,7 @@ p {
     font-weight: 500;
     font-family: 'Aguere Sans-serif', sans-serif;
 }
-.sidebar {
+.top-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
