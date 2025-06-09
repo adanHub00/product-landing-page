@@ -84,10 +84,9 @@ ul {
 li {
     display: inline;
     text-align: center;
-}
-a {
+    list-style: none;
     text-decoration: none;
-    z-index: 1;
+    z-index: 10;
     gap: 5em;
     color: #D4AF37;
 }
