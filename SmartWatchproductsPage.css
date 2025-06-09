@@ -91,6 +91,8 @@ a {
     text-decoration: none;
     color: #D3D3D3;
     list-style: none;
+    gap: 5em;
+    z-index: 100;
 }
 /*Hero Section */
 #hero {
