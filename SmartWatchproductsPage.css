@@ -67,14 +67,14 @@ p {
     width: 100%;
     background: #000000;
     box-shadow: 2px 3px 2px #000000;
-    list-style: none;
-    text-decoration: none;
-    color: #D3D3D3;
 }
-.nav-link {
+.nav-list {
     display: flex;
     gap: 1.5em;
     margin: 0 2rem;
+    text-decoration: none;
+    color: #D3D3D3;
+    
 {
 ul {
     list-style: none;
