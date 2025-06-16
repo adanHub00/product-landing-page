@@ -62,7 +62,6 @@ nav {
 }
 .nav {
     display: flex;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
@@ -72,6 +71,7 @@ nav {
 }
 .nav-list {
     display: flex;
+    justify-content: flex-end;
     gap: 1em;
     margin: 0 2rem;
 }
@@ -92,7 +92,7 @@ li {
 .nav a {
     text-decoration: none;
     list-style: none;
-    color: #040b46;
+    color: #1e90ff;
     font-weight: bold;
 }
 a:hover {
