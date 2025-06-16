@@ -88,8 +88,9 @@ li {
     text-align: center;
     unicode-bidi: isolate;
 }
-a {
+.nav a {
     text-decoration: none;
+    list-style: none;
     color: #D4AF37;
 }
 a:hover {
