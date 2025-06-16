@@ -66,8 +66,9 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    background: #000000;
+    background: #705a0f;
     box-shadow: 2px 3px 2px #000000;
+    unicode-bidi: isolate;
 }
 .nav-list {
     display: flex;
@@ -83,7 +84,7 @@ ul {
     padding-inline-start: 40px;
 }
 li {
-    display: inline;
+    display: list-item;
     text-align: center;
     z-index: 10;
     gap: 5em;
