@@ -59,10 +59,10 @@ p {
 /* Navigation Bar */
 nav {
     unicode-bidi: isolate;
+    justify-content: flex-end;
 }
 .nav {
     display: flex;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
