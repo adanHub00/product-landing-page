@@ -91,7 +91,7 @@ li {
 .nav a {
     text-decoration: none;
     list-style: none;
-    color: #D4AF37;
+    color: blue;
 }
 a:hover {
     cursor: pointer;
