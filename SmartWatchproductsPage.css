@@ -62,6 +62,7 @@ nav {
 }
 .nav {
     display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,10 +93,12 @@ li {
     text-decoration: none;
     list-style: none;
     color: #040b46;
+    font-weight: bold;
 }
 a:hover {
     cursor: pointer;
     color: #D3D3D3;
+    font-weight: bolder;
 }
  
 /*Hero Section */
