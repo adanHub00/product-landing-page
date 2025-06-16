@@ -66,8 +66,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #D4AF37;
-    box-shadow: 0 2px 0 #705a0f;
+    background: #705a0f;
+    box-shadow: 0 2px 0 #D4AF37;
 }
 .nav-list {
     display: flex;
@@ -91,7 +91,7 @@ li {
 .nav a {
     text-decoration: none;
     list-style: none;
-    color: blue;
+    color: #040b46;
 }
 a:hover {
     cursor: pointer;
