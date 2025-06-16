@@ -59,6 +59,7 @@ p {
 /* Navigation Bar */
 nav {
     unicode-bidi: isolate;
+    font-size: 1.8rem;
 }
 .nav {
     display: flex;
