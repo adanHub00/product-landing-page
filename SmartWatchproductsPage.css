@@ -62,7 +62,6 @@ nav {
 }
 .nav {
     display: flex;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
@@ -72,7 +71,8 @@ nav {
 }
 .nav-list {
     display: flex;
-    font-size: 1.5rem;
+    justify-content: flex-end;
+    font-size: 1.3rem;
     gap: 1em;
     margin: 0 2rem;
 }
